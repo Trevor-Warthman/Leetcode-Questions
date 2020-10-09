@@ -14,6 +14,5 @@ numbers = [1,4,5,6,7,8,9,10,40,50,90,100,400,500,900,1000]
     end
     num = num - numbers[i]
     current = romans[i]
-    print(current)
     return current + int_to_roman(num)
 end
